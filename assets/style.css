@@ -32,11 +32,14 @@ header {
 header a {
     text-decoration: none;
     color: #09508a;
+    display: inline-block;
 }
 
 header nav {
     text-align: center;
     margin: 7px 0;
+    position: relative;
+    top: 15px;
 }
 
 header nav ul {
@@ -56,8 +59,7 @@ header nav ul li a {
 header nav ul li a:hover {
     color:#249bfc;
     text-shadow: none;
-    transform: scale(1.5);
-    transition: ease-out;
+    transform: scale(1.2);
   }
 
 .portfolio {
@@ -69,9 +71,28 @@ header nav ul li a:hover {
     font-size: 50px;
 }
 
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.description {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 18px;
+}
+
 .examples img {
-    width: 500px;
+    width: 400px;
     height: auto;
+}
+
+.examples #first-project {
+    width: 925px;
+    height: 500px;
 }
 
 .me {
