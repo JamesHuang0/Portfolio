@@ -80,14 +80,18 @@ header nav ul li a:hover {
 
 .description {
     position: absolute;
-    top: 5px;
+    top: 10px;
     left: 10px;
-    font-size: 18px;
+    font-size: 35px;
+    background: #eb9834;
+    border: #249bfc;
+    border-radius: 10px;
 }
 
 .examples img {
     width: 400px;
     height: auto;
+    align-self: center;
 }
 
 .examples #first-project {
