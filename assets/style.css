@@ -90,10 +90,10 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
-.examples {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .examples img {
