@@ -6,4 +6,4 @@ In this project I created a portfolio website that I can use to showcase my futu
 
 https://mrxanthic.github.io/challenge-two/
 
-![Screenshot](
+![Screenshot](https://github.com/mrxanthic/challenge-two/blob/main/assets/images/Screenshot.PNG)
