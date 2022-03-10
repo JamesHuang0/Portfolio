@@ -196,5 +196,25 @@ footer ul li a {
     color: #249bfc;
 }
 
+@media screen and (max-width: 980px) {
+    img {
+        flex: 0 70%;
+    }
+    iframe {
+        flex: 1 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        flex: 0 32%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    img {
+        flex: 0 100%;
+    }
+}
 
 
