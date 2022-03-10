@@ -25,7 +25,7 @@ header {
     width: 125px;
     height: 100px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
     position: relative;
 }
 
@@ -39,7 +39,7 @@ header nav {
     text-align: center;
     margin: 7px 0;
     position: relative;
-    top: 15px;
+    top: 8px;
 }
 
 header nav ul {
@@ -69,6 +69,8 @@ header nav ul li a:hover {
 
 .portfolio h2 {
     font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
 }
 
 .examples {
@@ -88,14 +90,24 @@ header nav ul li a:hover {
     border-radius: 10px;
 }
 
+.examples {
+    margin: auto;
+    display: inline-block;
+}
+
 .examples img {
     width: 400px;
     height: auto;
     align-self: center;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #09508a;
+    border-radius: 6px;
+
 }
 
 .examples #first-project {
-    width: 925px;
+    width: 999px;
     height: 500px;
 }
 
@@ -103,13 +115,59 @@ header nav ul li a:hover {
     background: #249bfc;
     margin: 0 5%;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.me h2 {
+    font-size: 50px;
+}
+
+.me p {
+    font-size: 25px;
+}
+
+#resume {
+    background: #249bfc;
+    margin: 0 5%;
+}
+
+#resume h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    width: 900px;
+    height: 500px;
 }
 
 footer {
     background: #eb9834;
     margin: 0 5% 5% 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    font-size: 50px;
+    padding-left: 30px;
 }
 
 footer ul {
     list-style: none;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 45px;
+}
+
+footer ul li a {
+    padding: 13px 20px;
+    color: #249bfc;
 }
