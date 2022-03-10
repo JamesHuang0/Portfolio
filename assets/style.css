@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #eb9834;
+    --secondary-color: #09508a;
+    --tertiary-color: #249bfc;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: #eb9834 ;
+    background: var(--primary-color);
     background-size: cover;
     background-attachment: fixed;
     z-index: 9999;
@@ -31,7 +37,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #09508a;
+    color: var(--secondary-color);
     display: inline-block;
 }
 
@@ -57,7 +63,7 @@ header nav ul li a {
   }
 
 header nav ul li a:hover {
-    color:#249bfc;
+    color:var(--tertiary-color);
     text-shadow: none;
     transform: scale(1.1);
   }
@@ -100,7 +106,7 @@ header nav ul li a:hover {
 }
 
 .examples #first-project {
-    width: 1021.43px;
+    width: 1019.43px;
     height: 500px;
     display: block;
 }
@@ -174,3 +180,4 @@ footer ul li a {
     padding: 13px 20px;
     color: #249bfc;
 }
+
