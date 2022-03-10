@@ -24,7 +24,7 @@ header {
 .logo img {
     width: 125px;
     height: 100px;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-left: 50px;
     position: relative;
 }
@@ -39,7 +39,7 @@ header nav {
     text-align: center;
     margin: 7px 0;
     position: relative;
-    top: 8px;
+    top: 5px;
 }
 
 header nav ul {
@@ -59,7 +59,7 @@ header nav ul li a {
 header nav ul li a:hover {
     color:#249bfc;
     text-shadow: none;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
 .portfolio {
@@ -91,24 +91,24 @@ header nav ul li a:hover {
 }
 
 .examples {
-    margin: auto;
-    display: inline-block;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .examples img {
-    width: 400px;
-    height: auto;
-    align-self: center;
+    height: 400px;
+    width: auto;
     border-style: solid;
     border-width: 10px;
     border-color: #09508a;
     border-radius: 6px;
-
 }
 
 .examples #first-project {
-    width: 999px;
+    width: 1021.43px;
     height: 500px;
+    display: block;
 }
 
 .me {
@@ -140,7 +140,7 @@ header nav ul li a:hover {
 iframe {
     margin: auto;
     display: block;
-    width: 900px;
+    width: 800px;
     height: 500px;
 }
 
